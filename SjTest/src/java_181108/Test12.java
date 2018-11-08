@@ -5,15 +5,14 @@ import java.util.Scanner;
 public class Test12 {
 //	 학생수 점수입력 점수리스트 분석 종료
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner S = new Scanner(System.in);
 
-		int score = 0;
 		int sum = 0;
 		double avg = 0.0;
 		int cnt = 0;
 		int cnt1 = 0;
-		int cnt2 = 0;
-		int cnt3 = 0;
+
 		boolean run = true;
 		int[] student = null;
 
